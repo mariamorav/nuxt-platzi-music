@@ -34,6 +34,18 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  /*
+  ** CSS configuration
+  */
+  css: [
+    'bulma',
+    '~/assets/css/main.scss'
+  ],
+  plugins: [
+    '~/plugins/directives.js',
+    '~/plugins/filters.js',
+    '~/plugins/track.js'
+  ]
 }
 
